@@ -3,14 +3,19 @@ body {
   background-color: #f4f4f4;
   margin: 0;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
   color: #333;
   margin: 0;
 }
+
 main h2 {
   margin-bottom: 30px;
   text-align: center;
 }
+
 .btn {
   background: #ffa300;
   color: white;
@@ -27,6 +32,7 @@ header {
   background: #e4e4e4;
   padding: 20px;
 }
+
 header nav {
   max-width: 1200px;
   margin: 0 auto;
@@ -34,38 +40,46 @@ header nav {
   align-items: center;
   gap: 15px;
 }
+
 header img {
   width: 60px;
 }
+
 main {
   max-width: 1200px;
   margin: 40px auto;
 }
+
 .article-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .article {
   background: #fff;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 form {
   width: 100%;
   max-width: 450px;
   margin: 20px auto;
   padding: 0 20px;
 }
+
 footer {
   background: #eee;
   padding: 60px 0;
 }
+
 footer h2 {
   margin-bottom: 30px;
   text-align: center;
 }
+
 form * {
   display: block;
   width: 100%;
@@ -76,9 +90,11 @@ form * {
   box-sizing: border-box;
   font-family: Rubik;
 }
+
 form textarea {
   height: 100px;
 }
+
 .btn {
   background: #ffa300;
   color: white;
@@ -87,6 +103,7 @@ form textarea {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 .loader {
   opacity: 0;
   position: fixed;
@@ -99,6 +116,7 @@ form textarea {
   padding: 10px 20px;
   border-radius: 5px;
 }
+
 .loader.htmx-request {
   opacity: 1;
 }
